@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from skimage.morphology import opening, disk
-from skimage.color import rgb2lab, deltaE_cie76
+from skimage.color import rgb2lab, deltaE_cie76,lab2rgb  
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
